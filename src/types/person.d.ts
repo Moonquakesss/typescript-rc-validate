@@ -9,6 +9,7 @@ declare namespace Person {
     address: string;
     anotherKey: string;
     anotherKey2: number;
+    anotherKey3: string;
   }
 }
 
