@@ -1,0 +1,36 @@
+{
+    "$id": "testId",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "Person.Company": {
+            "properties": {
+                "address": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "address"
+            ],
+            "type": "object"
+        },
+        "Person.User": {
+            "properties": {
+                "address": {
+                    "type": "string"
+                },
+                "age": {
+                    "type": "number"
+                },
+                "name": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "age",
+                "name"
+            ],
+            "type": "object"
+        }
+    }
+}
+
