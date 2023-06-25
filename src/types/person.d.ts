@@ -8,6 +8,7 @@ declare namespace Person {
   export interface Company {
     address: string;
     anotherKey: string;
+    anotherKey2: number;
   }
 }
 
